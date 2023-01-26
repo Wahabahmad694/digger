@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MaterialEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="android:textSize">@dimen/_13sdp</item>
+    </style>
+
+    <style name="Hyperlink">
+        <item name="android:textColor">@color/purple_700</item>
+        <item name="android:background">@drawable/hyperlink</item>
+    </style>
+
+    <style name="OutlinedButtonPrimaryBlueStyleTextMedium" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/poppinsregular</item>
+        <item name="strokeColor">@color/black</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">@dimen/_8sdp</item>
+        <item name="autoSizeMaxTextSize">@dimen/_10sdp</item>
+    </style>
+</resources>
